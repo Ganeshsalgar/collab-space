@@ -16,11 +16,11 @@ public class WorkspaceMember {
     Long id;
 
     @ManyToOne
-    @Column(nullable = false)
+//    @Column(nullable = false)
     Workspace workspace;
 
     @ManyToOne
-    @Column(nullable = false)
+//    @Column(nullable = false)
     User user;
 
 
